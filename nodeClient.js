@@ -13,8 +13,10 @@ const data = {
     values: [2, 3, 4, 5],
     sourceId: uuid()
 }
+
+
 nodeService
 .act({role:'fw',cmd:'createActor'},serializeArgs(data), (err, response) => {
-    console.log('Response is:', response.second);
+    if(err) console.log(err);
+    console.log("new actor id " , response.payload);
 });
-
