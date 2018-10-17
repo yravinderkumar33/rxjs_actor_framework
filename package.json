@@ -13,6 +13,7 @@
     "rxjs": "^6.3.3",
     "rxjs-compat": "^6.3.3",
     "seneca": "^3.7.0",
-    "seneca-transport": "^2.3.0"
+    "seneca-transport": "^2.3.0",
+    "uuid": "^3.3.2"
   }
 }
